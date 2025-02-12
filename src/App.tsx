@@ -1,26 +1,32 @@
-import { useState } from 'react';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
 
 function App() {
   const [temperature, setTemperature] = useState(20); // Initial temperature
 
+  // Function to change background color based on temperature
+  const getBgColor = () => {
+    if (temperature < 15) return "bg-blue-500";
+    if (temperature > 30) return "bg-red-500";
+    return "bg-green-500";
+  };
+
   return (
-    <div className={`min-h-screen flex flex-col items-center justify-center transition-all 
-      ${temperature < 15 ? 'bg-blue-500' : temperature > 30 ? 'bg-red-500' : 'bg-green-500'}`}>
+    <div className={`h-screen w-full flex flex-col items-center justify-center transition-all ${getBgColor()}`}>
+      <h1 className="text-white text-4xl font-bold mb-4">Temperature App</h1>
+      <p className="text-white text-2xl">Temperature: {temperature}°C</p>
 
-      <h1 className="text-4xl font-bold mb-4 text-white">Temperature Control</h1>
-      <p className="text-2xl text-white mb-4">{temperature}°C</p>
-
-      <div className="space-x-4">
-        <button 
-          className="px-4 py-2 bg-white text-black rounded-lg shadow-md hover:bg-gray-200" 
-          onClick={() => setTemperature(temperature + 1)}>
+      <div className="mt-4 flex gap-4">
+        <button
+          className="px-6 py-3 text-lg font-semibold text-white bg-black rounded-lg hover:bg-gray-700 transition-all"
+          onClick={() => setTemperature(temperature + 1)}
+        >
           Increase
         </button>
-
-        <button 
-          className="px-4 py-2 bg-white text-black rounded-lg shadow-md hover:bg-gray-200" 
-          onClick={() => setTemperature(temperature - 1)}>
+        <button
+          className="px-6 py-3 text-lg font-semibold text-white bg-black rounded-lg hover:bg-gray-700 transition-all"
+          onClick={() => setTemperature(temperature - 1)}
+        >
           Decrease
         </button>
       </div>
