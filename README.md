@@ -25,6 +25,15 @@ Step # 02. Create a New React Appliacation
 9.  Then change the directory to go inside your project directory. For that run the command: cd "your_project_name"
 10. To install the node modules, run the command: npm install.
 11. Now you application is created. The src folder conatins the code of your application in the App.css, App.jsx or App.tsx, index.css and main.jsx or main.tsx files.
+    
+    App.css: Contains styles specific to the App component. Used to style the overall layout and appearance.
+
+    App.jsx / App.tsx: The main component that defines the overall structure and renders child components. Uses .jsx for JavaScript or .tsx for TypeScript.
+    
+    index.css: Contains global styles and resets for the entire application. It is applied to the app before rendering.
+    
+    main.jsx / main.tsx: The entry point where the app is rendered into the DOM. It connects the React app to the root HTML element.
+  
 12. Your can change/modify the files according to your need.
 13. Then to run the application, run the command: npm run dev
 14. A local host link will appear Ctrl + Click that link to open the application on the browser.
