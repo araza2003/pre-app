@@ -44,7 +44,7 @@ Step # 03: Install Git (Not GitHub)
 
 Step # 04: Push your aplication to Github
 
-1. Goto: Github.com
+1. Goto: https://github.com/
 2. Login/SignUp
 3. Create a new repository. (Do not initialize it with README.MD or .gitignore beacuse your project already contains those files)
 4. Open terminal and navigate to the directory in which your project is present using: cd "path_to_your_project_directory" or simply just open the folder from file explorer Right Click and open terminal.
@@ -65,7 +65,7 @@ Step # 04: Push your aplication to Github
   git push -u origin main  
 
 Step # 05: Deploy to Vercel
-1. Goto: Vercel.com
+1. Goto: https://vercel.com/
 2. Login/Signup
 3. Click Add new -> Project
 4. Link Vercel with Github
