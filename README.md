@@ -51,16 +51,16 @@ Step # 04: Push your aplication to Github
   # Step 1: Initialize Git repository  
   git init  
   
-  # Step 2: Add a remote repository (Replace <repository_url> with your actual GitHub repo URL)  
+   Step 2: Add a remote repository (Replace <repository_url> with your actual GitHub repo URL)  
   git remote add origin <repository_url>  
   
-  # Step 3: Stage all files  
+   Step 3: Stage all files  
   git add .  
   
-  # Step 4: Commit the changes with a message  
+   Step 4: Commit the changes with a message  
   git commit -m "Initial commit"  
   
-  # Step 5: Push changes to the GitHub repository (on the main branch)  
+   Step 5: Push changes to the GitHub repository (on the main branch)  
   git branch -M main  
   git push -u origin main  
 
