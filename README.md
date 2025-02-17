@@ -1,5 +1,3 @@
-Here's the rewritten version:
-
 ---
 
 # CREATE AND DEPLOY YOUR FIRST REACT APPLICATION
