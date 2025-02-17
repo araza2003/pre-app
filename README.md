@@ -82,7 +82,7 @@ Step # 05: Deploy to Vercel
 6. Import the repository that you want to deploy.
 7. The click deploy.
 8. A window will be opened click that window, your deployed application will be shown on the browser.
-9. Copy the URL, which t=is your deployment link.
+9. Copy the URL, which this your deployment link.
 
 Additionally, one advantage is that, you won't need to pen github or vercel deploy again everytime you make changes to your project just make changes in your vs code open terminal run the following commands,
 1. git add .
