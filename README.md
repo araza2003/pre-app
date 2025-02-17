@@ -76,7 +76,7 @@ Step # 05: Deploy to Vercel
 9. Copy the URL, which t=is your deployment link.
 
 Additionally, one advantage is that, you won't need to pen github or vercel deploy again everytime you make changes to your project just make changes in your vs code open terminal run the following commands,
-git add .
-git commit -m "Updated feature"
-git push origin main
-vercel --prod
+1. git add .
+2. git commit -m "Updated feature"
+3. git push origin main
+4. vercel --prod
